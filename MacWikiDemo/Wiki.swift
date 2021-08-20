@@ -14,7 +14,7 @@ extension UTType {
     }
 }
 
-struct MacWikiDemoDocument: FileDocument {
+struct Wiki: FileDocument {
     var text: String
 
     init(text: String = "Hello, world!") {
