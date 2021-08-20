@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct MacWikiDemoApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: MacWikiDemoDocument()) { file in
-            ContentView(document: file.$document)
+        DocumentGroup(newDocument: Wiki()) { file in
+            ContentView(wiki: file.$document)
         }
     }
 }
