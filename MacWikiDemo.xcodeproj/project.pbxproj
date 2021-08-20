@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4DF11F0B26D02F8F00070C9A /* MacWikiDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F0A26D02F8F00070C9A /* MacWikiDemoApp.swift */; };
-		4DF11F0D26D02F8F00070C9A /* MacWikiDemoDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F0C26D02F8F00070C9A /* MacWikiDemoDocument.swift */; };
+		4DF11F0D26D02F8F00070C9A /* Wiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F0C26D02F8F00070C9A /* Wiki.swift */; };
 		4DF11F0F26D02F8F00070C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F0E26D02F8F00070C9A /* ContentView.swift */; };
 		4DF11F1126D02F8F00070C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF11F1026D02F8F00070C9A /* Assets.xcassets */; };
 		4DF11F1426D02F8F00070C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF11F1326D02F8F00070C9A /* Preview Assets.xcassets */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		4DF11F0726D02F8F00070C9A /* MacWikiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacWikiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF11F0A26D02F8F00070C9A /* MacWikiDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWikiDemoApp.swift; sourceTree = "<group>"; };
-		4DF11F0C26D02F8F00070C9A /* MacWikiDemoDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWikiDemoDocument.swift; sourceTree = "<group>"; };
+		4DF11F0C26D02F8F00070C9A /* Wiki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wiki.swift; sourceTree = "<group>"; };
 		4DF11F0E26D02F8F00070C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DF11F1026D02F8F00070C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF11F1326D02F8F00070C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				4DF11F0A26D02F8F00070C9A /* MacWikiDemoApp.swift */,
-				4DF11F0C26D02F8F00070C9A /* MacWikiDemoDocument.swift */,
+				4DF11F0C26D02F8F00070C9A /* Wiki.swift */,
 				4DF11F0E26D02F8F00070C9A /* ContentView.swift */,
 				4DF11F1026D02F8F00070C9A /* Assets.xcassets */,
 				4DF11F1526D02F8F00070C9A /* Info.plist */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF11F0B26D02F8F00070C9A /* MacWikiDemoApp.swift in Sources */,
-				4DF11F0D26D02F8F00070C9A /* MacWikiDemoDocument.swift in Sources */,
+				4DF11F0D26D02F8F00070C9A /* Wiki.swift in Sources */,
 				4DF11F0F26D02F8F00070C9A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
