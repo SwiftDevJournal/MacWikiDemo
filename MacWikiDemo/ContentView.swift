@@ -8,15 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var document: MacWikiDemoDocument
-
+    @Binding var wiki: Wiki
+    @State private var showAddSheet = false
+    // Need a way to access the selected page.
+    
     var body: some View {
-        TextEditor(text: $document.text)
+        NavigationView {
+            PageListView(wiki: $wiki)
+            // FIXME: Clean this up so it uses the selected page.
+            PageView(page: .constant(Page(text: "")))
+        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(document: .constant(MacWikiDemoDocument()))
+        ContentView(wiki: .constant(Wiki()))
     }
 }
