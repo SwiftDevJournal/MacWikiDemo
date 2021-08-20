@@ -19,6 +19,7 @@
 		4DF11F3B26D0328B00070C9A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F3A26D0328B00070C9A /* PageView.swift */; };
 		4DF11F3E26D0331100070C9A /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4DF11F3D26D0331100070C9A /* Ink */; };
 		4DF11F4026D0338A00070C9A /* AddPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F3F26D0338A00070C9A /* AddPageView.swift */; };
+		4DF11F4226D033E400070C9A /* PageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F4126D033E400070C9A /* PageListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4DF11F3826D0322C00070C9A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		4DF11F3A26D0328B00070C9A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		4DF11F3F26D0338A00070C9A /* AddPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageView.swift; sourceTree = "<group>"; };
+		4DF11F4126D033E400070C9A /* PageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				4DF11F1526D02F8F00070C9A /* Info.plist */,
 				4DF11F0A26D02F8F00070C9A /* MacWikiDemoApp.swift */,
 				4DF11F3526D0318D00070C9A /* Page.swift */,
+				4DF11F4126D033E400070C9A /* PageListView.swift */,
 				4DF11F3A26D0328B00070C9A /* PageView.swift */,
 				4DF11F1226D02F8F00070C9A /* Preview Content */,
 				4DF11F3826D0322C00070C9A /* WebView.swift */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF11F0B26D02F8F00070C9A /* MacWikiDemoApp.swift in Sources */,
+				4DF11F4226D033E400070C9A /* PageListView.swift in Sources */,
 				4DF11F4026D0338A00070C9A /* AddPageView.swift in Sources */,
 				4DF11F3B26D0328B00070C9A /* PageView.swift in Sources */,
 				4DF11F3926D0322C00070C9A /* WebView.swift in Sources */,
