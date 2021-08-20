@@ -17,6 +17,7 @@
 		4DF11F3626D0318D00070C9A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F3526D0318D00070C9A /* Page.swift */; };
 		4DF11F3926D0322C00070C9A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F3826D0322C00070C9A /* WebView.swift */; };
 		4DF11F3B26D0328B00070C9A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF11F3A26D0328B00070C9A /* PageView.swift */; };
+		4DF11F3E26D0331100070C9A /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4DF11F3D26D0331100070C9A /* Ink */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF11F3E26D0331100070C9A /* Ink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,9 @@
 			dependencies = (
 			);
 			name = MacWikiDemo;
+			packageProductDependencies = (
+				4DF11F3D26D0331100070C9A /* Ink */,
+			);
 			productName = MacWikiDemo;
 			productReference = 4DF11F0726D02F8F00070C9A /* MacWikiDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -226,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 4DF11EFE26D02F8F00070C9A;
+			packageReferences = (
+				4DF11F3C26D0331100070C9A /* XCRemoteSwiftPackageReference "Ink" */,
+			);
 			productRefGroup = 4DF11F0826D02F8F00070C9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -626,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DF11F3C26D0331100070C9A /* XCRemoteSwiftPackageReference "Ink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Ink";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DF11F3D26D0331100070C9A /* Ink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DF11F3C26D0331100070C9A /* XCRemoteSwiftPackageReference "Ink" */;
+			productName = Ink;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DF11EFF26D02F8F00070C9A /* Project object */;
 }
