@@ -41,11 +41,12 @@ struct Wiki: FileDocument {
     }
     
     mutating func readPage(pageFile: FileWrapper) {
-        if let filename = pageFile.filename {
+        if let filename = pageFile.filename,
+           let fileData = pageFile.regularFileContents {
+            
             let page = Page()
             page.title = filename
-            // TODO: Remove the force unwrapping
-            page.read(data: pageFile.regularFileContents!)
+            page.read(data: fileData)
             pages.append(page)
         }
     }
