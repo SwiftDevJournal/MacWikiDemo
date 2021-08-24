@@ -26,3 +26,9 @@ I find that with SwiftUI that all you have to do is select the page to change th
 Select the page and press the Delete key to delete a page.
 
 You may have to press the Esc key afer selecting the page to select the page instead of renaming it.
+
+## Interesting Files
+
+The `ContentView.swift` and `PageListView.swift` files have the code for creating a master-detail interface.
+
+The `Wiki.swift` and `Page.swift` files have the code for working with file wrappers.
