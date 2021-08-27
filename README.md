@@ -3,7 +3,7 @@
 A Mac SwiftUI project demonstrating how to create a master-detail interface. I use it as a sample project in the following articles:
 
 * [Creating a Master-Detail Inteface in SwiftUI](https://www.swiftdevjournal.com/creating-a-master-detail-inteface-in-swiftui/)
-* [[Using File Wrappers in a SwiftUI App](https://www.swiftdevjournal.com/using-file-wrappers-in-a-swiftui-app/)
+* [Using File Wrappers in a SwiftUI App](https://www.swiftdevjournal.com/using-file-wrappers-in-a-swiftui-app/)
 
 The master view shows a list of pages. Select a page to show the page's contents in the detail view.
 
