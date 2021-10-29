@@ -4,6 +4,7 @@ A Mac SwiftUI project demonstrating how to create a master-detail interface. I u
 
 * [Creating a Master-Detail Inteface in SwiftUI](https://www.swiftdevjournal.com/creating-a-master-detail-inteface-in-swiftui/)
 * [Using File Wrappers in a SwiftUI App](https://www.swiftdevjournal.com/using-file-wrappers-in-a-swiftui-app/)
+* [Removing Items from SwiftUI Lists in Mac Apps](https://www.swiftdevjournal.com/removing-items-from-swiftui-lists-in-mac-apps/)
 
 The master view shows a list of pages. Select a page to show the page's contents in the detail view.
 
@@ -35,3 +36,5 @@ You may have to press the Esc key afer selecting the page to select the page ins
 The `ContentView.swift` and `PageListView.swift` files have the code for creating a master-detail interface.
 
 The `Wiki.swift` and `Page.swift` files have the code for working with file wrappers.
+
+The `PageListView.swift` and `Wiki.swift` files have the code for list item removal.
