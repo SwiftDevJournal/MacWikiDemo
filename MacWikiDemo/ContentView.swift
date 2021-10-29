@@ -15,7 +15,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             PageListView(wiki: $wiki)
-            // FIXME: Clean this up so it uses the selected page.
             PageView(page: .constant(Page(text: "")))
         }
         
