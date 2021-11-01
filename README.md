@@ -10,6 +10,8 @@ The master view shows a list of pages. Select a page to show the page's contents
 
 The detail view has two views: a text view where you type Markdown and a web view that shows HTML.
 
+The [WikiDemo project](https://github.com/SwiftDevJournal/WikiDemo) is a multiplatform version of this project.
+
 ## System Requirements
 
 * Xcode 13.1+
