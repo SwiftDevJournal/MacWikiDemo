@@ -40,3 +40,7 @@ The `ContentView.swift` and `PageListView.swift` files have the code for creatin
 The `Wiki.swift` and `Page.swift` files have the code for working with file wrappers.
 
 The `PageListView.swift` and `Wiki.swift` files have the code for list item removal.
+
+## Credits
+
+This project uses the [Ink Markdown parser](https://github.com/JohnSundell/Ink) by John Sundell.
